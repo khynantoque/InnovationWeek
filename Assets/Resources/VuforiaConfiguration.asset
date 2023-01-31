@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVZzb2pvYi8vLy8vQUFBQUtOVWNlWGpGY2s1OXBIbk1oS1dGbXQ4bXpJZDhzNjV2Wk8wdmFtTzVXZDVjQWs0SFlYYU1uUUxzaVRUL0tJS285WVhJS0lnaEJmVkE5ZzNhbzY3OUdiWkVaQ21EOEpFZFlaZWtoZDNCYkNVbkh6bTF2ajd0d1AxekdwVDdNeEVwK25RWFlxRVE3Q0xIMXZuVmRRQlZoTnRnT2EzUC90WEdXVVRVNzdSNnRFN1FNYVk5bkV5bVJCTDR5K2VRUHFmTE5rbGppVXIwT1Yzc1NUQnpaQnJtcXhGZmtqVm13c0Z3NE96Ny9OZFBxOVlmREZwT3NCYmM5bGppU0t3QTZXOGhNUGV4MnNOby9qSHJwUTFYM2tveXhZaVNuMmZ6M3RxeVVBQzVabkZLT1E2VzRwT1BBUmp1ZjUyVVc1R0lDQVYrcGVSNmdnU21pczVYTHJab3JiSE5MUTBiMEgrc0RqeS9Vd1hVdUtBa2dZeGo=
+    delayedInitialization: 0
+    cameraFocusModeSetting: 2
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    virtualSceneScaleFactor: 1
+    modelTargetRecoWhileExtendedTracked: 1
+    shareRecordingsInITunes: 0
+    logLevel: 0
+    version: 10.12.3
+    eulaAcceptedVersions: '{"Values":["10.6","10.9","10.10","10.12"]}'
+  database:
+    disableModelExtraction: 0
+  shaders:
+    depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
+    outlineShader: {fileID: 4800000, guid: c1ded68d068051d4f92650fcddaae5c7, type: 3}
+    unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
+    unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
+  playmode:
+    mSequencePath: 
+    playModeType: 0
+  webcam:
+    renderTextureLayer: 30
+  packageInformation:
+    ARFoundationVersion: 
